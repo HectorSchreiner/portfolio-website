@@ -321,6 +321,7 @@ section {
     margin-bottom: 2rem;
 }
 .experience-details-container {
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -335,7 +336,7 @@ section {
     justify-content: space-around;
 }
 
-.article {
+article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
