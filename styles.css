@@ -12,6 +12,7 @@ body {
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
 }
 
 p {
@@ -52,7 +53,7 @@ a:hover {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
-  }
+}
 
 .logo {
     font-size: 2rem;
@@ -144,6 +145,7 @@ a:hover {
 /* sections */
 
 section {
+    scroll-snap-align: end;
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
@@ -157,10 +159,11 @@ section {
 
 /* profile section */
 #profile {
+    padding-top: 5vh;
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 75vh;
 }
 
 .section__pic-container {
@@ -184,6 +187,7 @@ section {
 }
 
 .section__text__p2 {
+    color: rgb(100, 100, 100);
     font-size: 1.75rem;
     margin-bottom: 1rem;
 }
@@ -376,7 +380,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100vh;
 }
 
 .contact-info-upper-container {
